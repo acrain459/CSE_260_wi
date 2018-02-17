@@ -1,0 +1,11 @@
+Implement 128 bit aligned memory reads 
+	Copy arrays into new buffers that are 128 bit aligned.  
+
+Implement shared memory so that the GPU can split up the for loops and iterate over shared memory vs DRAM
+
+Implement Blocking?  Copy on blocking so that the new memory is 128 bit aligned and fits into GPU caches and shared memory 
+
+=================== ~115 Gflops ===============================
+
+???  I'm open to ideas  
+	Papers to read to take advantage of GPU optimizations
